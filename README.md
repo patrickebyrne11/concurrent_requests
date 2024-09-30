@@ -71,17 +71,17 @@ Once Docker is set up and running, you can execute the CLI program using the fol
 
 bash
 ```
-python your_script.py --input_file input.txt --addresses_file addresses.txt --output_file output.txt
+python your_script.py --input_file input.txt --proxies_file addresses.txt --output_file output.txt
 ```
 ## Command Arguments
 * --input_file: Path to the input.txt file that contains the API input data.
-* --addresses_file: Path to the addresses.txt file that contains the proxy addresses.
+* --proxies_file: Path to the addresses.txt file that contains the proxy addresses.
 * --output_file: Path to the output.txt file where successful API responses will be written.
 
 ## Example Command
 bash
 ```
-python cli_program.py --input_file input.txt --addresses_file addresses.txt --output_file output.txt
+python cli_program.py --input_file input.txt --proxies_file addresses.txt --output_file output.txt
 ```
 This command will run the API requests asynchronously, use proxies, and save the output to output.txt.
 
